@@ -61,8 +61,15 @@ The project is designed as an engineering portfolio project focused on modern Ja
 
 ## Architecture
 
-Architecture diagrams, service boundaries, data ownership, security flows, and architectural decisions will be added during the architecture foundation milestone.
+The current architecture foundation includes:
 
+- [System Context](docs/architecture/system-context.md)
+- [Container View](docs/architecture/container-view.md)
+- [Domain Glossary](docs/architecture/domain-glossary.md)
+- [Quality Attributes](docs/architecture/quality-attributes.md)
+- [Architecture Decision Records](docs/adr/README.md)
+
+The architecture will evolve through explicit Architecture Decision Records as implementation progresses.
 ## Development Approach
 
 The platform is implemented incrementally through independently reviewable Pull Requests. Each milestone must leave the repository in a working and demonstrable state.
