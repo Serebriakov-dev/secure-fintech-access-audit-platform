@@ -21,4 +21,13 @@
         Access request workflows, approvals, assignments, and provisioning orchestration.
     </description>
 
+<dependencies>
+
+    <dependency>
+        <groupId>dev.serebriakov.fintech</groupId>
+        <artifactId>common-events</artifactId>
+        <version>${project.version}</version>
+    </dependency>
+</dependencies>
+
 </project>
