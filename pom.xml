@@ -36,6 +36,7 @@
         <module>access-service</module>
         <module>policy-service</module>
         <module>audit-service</module>
+        <module>common/common-events</module>
     </modules>
 
     <dependencies>
