@@ -1,10 +1,12 @@
 package dev.serebriakov.fintech.access.audit;
 
 import dev.serebriakov.fintech.events.audit.AuditEvent;
+import org.springframework.stereotype.Component;
 
 import java.time.Instant;
 import java.util.UUID;
 
+@Component
 public final class AuditEventFactory {
 
     private static final int SCHEMA_VERSION = 1;
