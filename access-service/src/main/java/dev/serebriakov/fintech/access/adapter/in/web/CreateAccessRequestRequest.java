@@ -9,10 +9,6 @@ public record CreateAccessRequestRequest(
         String correlationId,
 
         @NotBlank
-        @Size(max = 255)
-        String requesterId,
-
-        @NotBlank
         @Size(max = 100)
         String requestedAction,
 
