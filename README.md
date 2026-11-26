@@ -68,6 +68,7 @@ The current architecture foundation includes:
 - [Domain Glossary](docs/architecture/domain-glossary.md)
 - [Quality Attributes](docs/architecture/quality-attributes.md)
 - [Architecture Decision Records](docs/adr/README.md)
+- [Keycloak protection for Access Service](docs/security/keycloak-access-service.md)
 
 The architecture will evolve through explicit Architecture Decision Records as implementation progresses.
 ## Development Approach
